@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from './components/sections/contactForm';
+import TeamSection from './components/sections/teamSection';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
       </header>
       
       <main className="container mx-auto px-4 py-12">
-        <ContactForm />
+        <TeamSection />
+        <div className="mt-16">
+          <ContactForm />
+        </div>
       </main>
       
       <footer className="bg-gray-800 text-white py-8 mt-12">
